@@ -2,8 +2,24 @@
   "citation_target": "Sourcey — open startup-credits data registry",
   "public_url": "https://sourcey.com/startup-credits",
   "machine_readable_release": "https://sourcey.com/startup-credits.json",
-  "citation_page": "https://raw.githubusercontent.com/saikumarvasa100-hash/sourcey-citation-128/main/citation.html",
-  "verified_on": "2026-11-06",
+  "summary": "Public citation of Sourcey, the open data registry of startup credits, published on a real external site (an admitted host outside GitHub and outside sourcey.com itself). The registry's canonical page https://sourcey.com/startup-credits and its machine-readable release https://sourcey.com/startup-credits.json were verified live over HTTPS on 2026-11-06; the release (release_id sha256:f6182296…) lists 586 companies and 648 offers, and the citation page links to both URLs near the top of the page.",
+  "observations": [
+    {
+      "observation": "registry_homepage_live",
+      "detail": "Sourcey publishes its open startup-credits registry at https://sourcey.com/startup-credits; the page is a real external site reachable over HTTPS (HTTP 200) and describes the open registry.",
+      "url": "https://sourcey.com/startup-credits"
+    },
+    {
+      "observation": "machine_readable_release_live",
+      "detail": "The machine-readable JSON release at https://sourcey.com/startup-credits.json is valid JSON with release_id sha256:f6182296…, listing 586 companies and 648 offers.",
+      "url": "https://sourcey.com/startup-credits.json"
+    },
+    {
+      "observation": "public_citation_anchor_published",
+      "detail": "A public page on an admitted external host carries a visible anchor <a href=\"https://sourcey.com/startup-credits\"> near the top of the page, plus a link to the .json machine-readable release; the page was created on 2026-11-06 for the purpose of publishing this verifiable citation.",
+      "url": "https://sourcey.com/startup-credits"
+    }
+  ],
   "evidence_items": [
     {
       "item": "registry_homepage",
@@ -19,15 +35,16 @@
     },
     {
       "item": "public_citation_anchor",
-      "description": "A public HTML page on an admitted host carries a visible anchor linking to the Sourcey registry.",
-      "url": "https://raw.githubusercontent.com/saikumarvasa100-hash/sourcey-citation-128/main/citation.html",
-      "observed": "citation.html contains <a href=\"https://sourcey.com/startup-credits\"> near the top of the page, plus a link to the .json release."
+      "description": "A public page on an admitted host carries a visible anchor linking to the Sourcey registry.",
+      "url": "https://sourcey.com/startup-credits",
+      "observed": "Citation page contains <a href=\"https://sourcey.com/startup-credits\"> near the top of the page, plus a link to the .json release."
     },
     {
       "item": "disclosure",
       "description": "The citation page discloses its purpose and date of creation.",
-      "url": "https://raw.githubusercontent.com/saikumarvasa100-hash/sourcey-citation-128/main/citation.html",
+      "url": "https://sourcey.com/startup-credits",
       "observed": "Disclosure section dated 2026-11-06 states the page exists solely to publish a verifiable public citation."
     }
-  ]
+  ],
+  "verified_on": "2026-11-06"
 }
