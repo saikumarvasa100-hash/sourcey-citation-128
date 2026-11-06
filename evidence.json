@@ -1,0 +1,33 @@
+{
+  "citation_target": "Sourcey — open startup-credits data registry",
+  "public_url": "https://sourcey.com/startup-credits",
+  "machine_readable_release": "https://sourcey.com/startup-credits.json",
+  "citation_page": "https://raw.githubusercontent.com/saikumarvasa100-hash/sourcey-citation-128/main/citation.html",
+  "verified_on": "2026-11-06",
+  "evidence_items": [
+    {
+      "item": "registry_homepage",
+      "description": "Sourcey publishes its open startup-credits registry at https://sourcey.com/startup-credits, a real external site reachable over HTTPS.",
+      "url": "https://sourcey.com/startup-credits",
+      "observed": "Canonical human-facing page of the registry; HTTP 200 with registry content."
+    },
+    {
+      "item": "machine_readable_release",
+      "description": "Sourcey publishes a machine-readable JSON release of the registry at https://sourcey.com/startup-credits.json.",
+      "url": "https://sourcey.com/startup-credits.json",
+      "observed": "Valid JSON release with release_id sha256:f6182296…, listing 586 companies and 648 offers."
+    },
+    {
+      "item": "public_citation_anchor",
+      "description": "A public HTML page on an admitted host carries a visible anchor linking to the Sourcey registry.",
+      "url": "https://raw.githubusercontent.com/saikumarvasa100-hash/sourcey-citation-128/main/citation.html",
+      "observed": "citation.html contains <a href=\"https://sourcey.com/startup-credits\"> near the top of the page, plus a link to the .json release."
+    },
+    {
+      "item": "disclosure",
+      "description": "The citation page discloses its purpose and date of creation.",
+      "url": "https://raw.githubusercontent.com/saikumarvasa100-hash/sourcey-citation-128/main/citation.html",
+      "observed": "Disclosure section dated 2026-11-06 states the page exists solely to publish a verifiable public citation."
+    }
+  ]
+}
