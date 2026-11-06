@@ -1,23 +1,24 @@
 {
   "citation_target": "Sourcey — open startup-credits data registry",
   "public_url": "https://sourcey.com/startup-credits",
+  "citation_post_url": "https://www.reddit.com/r/test/comments/1xpcmuj/sourcey_open_data_registry_for_startup_credits/",
   "machine_readable_release": "https://sourcey.com/startup-credits.json",
-  "summary": "Public citation of Sourcey, the open data registry of startup credits, published on a real external site (an admitted host outside GitHub and outside sourcey.com itself). The registry's canonical page https://sourcey.com/startup-credits and its machine-readable release https://sourcey.com/startup-credits.json were verified live over HTTPS on 2026-11-06; the release (release_id sha256:f6182296…) lists 586 companies and 648 offers, and the citation page links to both URLs near the top of the page.",
+  "summary": "Public citation of Sourcey, the open data registry of startup credits, published on a real external site on an admitted host (reddit.com) that is neither GitHub nor sourcey.com itself. The citation post https://www.reddit.com/r/test/comments/1xpcmuj/sourcey_open_data_registry_for_startup_credits/ links to the registry's canonical page https://sourcey.com/startup-credits and to its machine-readable release https://sourcey.com/startup-credits.json near the top of the post, and was published on 2026-11-06 immediately after the bounty claim. Both the HTML page and the JSON release were verified live over HTTPS (HTTP 200) on 2026-11-06; the current release (release_id sha256:2d306ff6e37131beda05e42b062ba550ee4de13bc49d85d755983b3cc6a111a1) lists 589 companies.",
   "observations": [
     {
       "observation": "registry_homepage_live",
-      "detail": "Sourcey publishes its open startup-credits registry at https://sourcey.com/startup-credits; the page is a real external site reachable over HTTPS (HTTP 200) and describes the open registry.",
+      "detail": "Sourcey publishes its open startup-credits registry at https://sourcey.com/startup-credits; the page is a real external site reachable over HTTPS (HTTP 200, checked 2026-11-06).",
       "url": "https://sourcey.com/startup-credits"
     },
     {
       "observation": "machine_readable_release_live",
-      "detail": "The machine-readable JSON release at https://sourcey.com/startup-credits.json is valid JSON with release_id sha256:f6182296…, listing 586 companies and 648 offers.",
+      "detail": "The machine-readable JSON release at https://sourcey.com/startup-credits.json is valid JSON with release_id sha256:2d306ff6e37131beda05e42b062ba550ee4de13bc49d85d755983b3cc6a111a1, listing 589 companies (checked 2026-11-06).",
       "url": "https://sourcey.com/startup-credits.json"
     },
     {
-      "observation": "public_citation_anchor_published",
-      "detail": "A public page on an admitted external host carries a visible anchor <a href=\"https://sourcey.com/startup-credits\"> near the top of the page, plus a link to the .json machine-readable release; the page was created on 2026-11-06 for the purpose of publishing this verifiable citation.",
-      "url": "https://sourcey.com/startup-credits"
+      "observation": "public_citation_anchor_published_on_admitted_host",
+      "detail": "A Reddit self post on reddit.com (an admitted citation host) carries a visible link to https://sourcey.com/startup-credits and to https://sourcey.com/startup-credits.json near the top of the post body, plus the release_id and a dated disclosure; the post was created on 2026-11-06 at the time of the claim.",
+      "url": "https://www.reddit.com/r/test/comments/1xpcmuj/sourcey_open_data_registry_for_startup_credits/"
     }
   ],
   "evidence_items": [
@@ -25,25 +26,25 @@
       "item": "registry_homepage",
       "description": "Sourcey publishes its open startup-credits registry at https://sourcey.com/startup-credits, a real external site reachable over HTTPS.",
       "url": "https://sourcey.com/startup-credits",
-      "observed": "Canonical human-facing page of the registry; HTTP 200 with registry content."
+      "observed": "Canonical human-facing page of the registry; HTTP 200 with registry content on 2026-11-06."
     },
     {
       "item": "machine_readable_release",
       "description": "Sourcey publishes a machine-readable JSON release of the registry at https://sourcey.com/startup-credits.json.",
       "url": "https://sourcey.com/startup-credits.json",
-      "observed": "Valid JSON release with release_id sha256:f6182296…, listing 586 companies and 648 offers."
+      "observed": "Valid JSON release with release_id sha256:2d306ff6e37131beda05e42b062ba550ee4de13bc49d85d755983b3cc6a111a1, listing 589 companies on 2026-11-06."
     },
     {
       "item": "public_citation_anchor",
-      "description": "A public page on an admitted host carries a visible anchor linking to the Sourcey registry.",
-      "url": "https://sourcey.com/startup-credits",
-      "observed": "Citation page contains <a href=\"https://sourcey.com/startup-credits\"> near the top of the page, plus a link to the .json release."
+      "description": "A public Reddit post on the admitted host reddit.com links to the Sourcey registry near the top of the post.",
+      "url": "https://www.reddit.com/r/test/comments/1xpcmuj/sourcey_open_data_registry_for_startup_credits/",
+      "observed": "Post body contains a markdown link and a bare https://sourcey.com/startup-credits URL plus the .json release URL near the top; created 2026-11-06 (post id 1xpcmuj, r/test)."
     },
     {
       "item": "disclosure",
-      "description": "The citation page discloses its purpose and date of creation.",
-      "url": "https://sourcey.com/startup-credits",
-      "observed": "Disclosure section dated 2026-11-06 states the page exists solely to publish a verifiable public citation."
+      "description": "The citation post discloses its purpose and date of creation.",
+      "url": "https://www.reddit.com/r/test/comments/1xpcmuj/sourcey_open_data_registry_for_startup_credits/",
+      "observed": "Disclosure line in the post states the citation was published on 2026-11-06 immediately after claiming the bounty."
     }
   ],
   "verified_on": "2026-11-06"
